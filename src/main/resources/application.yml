@@ -1,0 +1,10 @@
+#spring.config.import=optional:configserver:http://localhost:9191/
+##spring.config.import=optional:configserver:http://configserver:8071/
+#spring.application.name=shopee-api-gateway-service
+
+spring:
+  application:
+    name: api-gateway-service
+  config:
+    import: optional:configserver:http://localhost:9191/
+
