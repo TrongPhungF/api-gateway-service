@@ -7,7 +7,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.0.2</version>
-    <relativePath/> <!-- lookup parent from repository -->
+    <relativePath/>
   </parent>
   <groupId>com.org</groupId>
   <artifactId>api-gateway-service</artifactId>
@@ -121,7 +121,7 @@
             </exclude>
           </excludes>
           <image>
-            <name>phungacd/${project.artifactId}</name>
+            <name>phung-huynh/${project.artifactId}</name>
           </image>
         </configuration>
       </plugin>
